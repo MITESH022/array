@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+            // array print, array sum, array loop 
+
+        // var arr = [10,20,30,40,50]
+        // var sum = 0;
+        // for( var a=0;a<=4;a++)
+        // {
+
+        //     document.write(arr[a]+ " ");
+        //     sum=sum+arr[a];
+            
+        // }
+        // document.write("<br>"+"total:"+ sum);
+
+            // .......    careat array ...... 
+            
+            // var arr = new Array();
+
+            
+            // for(var a=0;a<3;a++)
+            // {
+
+            //     arr[a] = prompt("enter value: ");
+            //     document.write(arr[a]+", ");
+            // }
+
+        var aa = [
+                ["harry",18,"male","b.com"],
+                ["sunny",19,"male","M.com"],
+                ["sara",19,"female","b.com"],
+                ["jeni",35,"male","b.com"],
+                ["Tom",18,"male","b.com"],
+                ["harry",18,"male","b.com"],
+                ["sunny",19,"male","M.com",]
+        
+
+        ];
+            // document.write(aa[2][0]);
+                document.write(aa.length);
+            document.write("<table border='1px' cellspacing='0'>");
+        for(i=0;i<aa.length;i++)
+        {
+            document.write("<tr>")
+            for(h=0;h<aa[i].length;h++)
+            {
+            document.write("<td>" + aa[i][h] + "</td> ");
+            
+        }
+        document.write("</tr>"); 
+    
+    }
+    document.write("<table>")
+         
+        
+      
+        
+            
+
+    </script>
+</body>
+</html>
